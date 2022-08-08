@@ -1,0 +1,367 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e5e5;
+}
+.barra-topo {
+    width: 100%;
+    height: 54px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index:1000;
+    padding-top:13px;
+    top: 0;
+    left:0;
+}
+.logos{
+    display:flex;
+    align-items: center;
+}
+.logo-icon {
+    left:15.84%;
+}
+.linha-topo{
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;;
+    margin-left: 10px;
+    margin-right:10px;
+    }
+.logo-img {
+    width: 103px;
+    height: 29px;
+    margin-left: 0.73%;
+  }
+.pesquisa{
+    width: 215px;
+    height: 26px;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin: 0 auto;
+    z-index:2;
+    display:flex;
+    position:absolute;
+    left:45%;
+}
+.pesquisa p{
+    margin:auto auto;
+    font-size: 12px;
+    color: #979797;
+}
+.barra-topo ion-icon {
+    font-size: 22px;
+  }
+
+  .barra-topo-mobile{
+    display: none;
+  }
+.botoes {
+    margin-left:47.07%;
+    display: flex;
+    width:150px;
+    justify-content: space-around;
+  }
+.corpo {
+    display: flex;
+    margin: 88px auto 0 auto;
+    padding-left:15.74%;
+  }
+.lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    left: 215px;
+    align-items: center;
+    width:614px;
+  }
+.stories {
+    width: 614px;
+    height: 118px;
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    position:relative;
+    overflow: hidden;
+  }
+.story{
+    position:relative;
+  }
+  .story ion-icon{
+    font-size:32px;
+  }
+  .divfoto{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.sbackground{
+    width: 66px;
+    height: 66px;
+    border-radius: 33px;
+    margin-right:14px;
+  }
+.sfoto{
+    width: 56px;
+    height: 56px;
+    top:5px;
+    left:5px;
+    border-radius: 28px;
+    position:absolute;
+    z-index:15;
+  }
+.story p{
+    height: 19px;
+    width: auto;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    margin-right: 14px;
+  }
+  .setinha{
+    margin-top:3px;
+    right:5px;
+    border-radius: 0px;
+    z-index:50;
+    position:absolute;
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.posts{
+    margin-top:24px;
+}
+.post{
+    height: 749px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom:60px;
+}
+.post-top{
+    height:60px;
+    display:flex;
+    align-items: center;
+}
+.pfoto{
+    width: 32px;
+    height: 32px;
+    margin-left:17px;
+    margin-right:17px;
+    border-radius: 16px;
+}
+.post-top p{
+    width: 109px;
+    height: 21px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+.post-opcoes{
+    width: 16px;
+    height: 16px;
+    margin-left:408px;
+}
+.conteudo{
+    width: 100%;
+    height: 612px;
+}
+.post-bottom{
+    height:76px;
+}
+.interacao{
+    display:flex;
+    width:100%;
+}
+.interacao ion-icon{
+    font-size:22px;
+}
+.interacao-esquerda{
+    margin-left:17.75px;
+    margin-right:478.06px;
+    display:flex;
+    width:88px;
+    height:22px;
+    justify-content: space-between;
+}
+.interacao-direita{
+    height:auto;
+    width:auto;
+    display:flex;
+}
+.curtidas{
+    display:flex;
+    align-items: center;
+    margin-left:17px;
+    font-size:14px;
+    height:20px;
+    margin-top:12px;
+    font-weight:300;
+    line-height: 16px;
+    text-align: left;
+}
+.curtida{
+    width: 20px;
+    height: 20px;
+    left: 232px;
+    top: 945px;
+    border-radius: 10px;
+    margin-right:10px;
+}
+.sidebar{
+    width:293px;
+    right:15.81%;
+    margin-left:29px;
+    height: 443px;
+    top:111px;
+    left: 62.81%;
+}
+.sidebar-top{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.sbfoto{
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    margin-right:17px;
+}
+.sidebar-nome h1{
+    font-weight: bold;
+    font-size: 14px;
+    color: #262626;
+}
+.sidebar-nome h2{
+    font-size: 14px;
+    color: #8E8E8E;
+}
+.sidebar-center{
+    display:flex;
+    margin-top:24px;
+}
+
+.sidebar-center h1{
+    font-weight: bold;
+    font-size: 12px;
+    color: #8E8E8E;
+    margin-right: 120px;
+}
+.sidebar-center h2{
+    font-weight: bold;
+    font-size: 12px;
+    color: #262626;
+}
+.recomendacao{
+    display:flex;
+    flex-direction: column;
+    margin-top:18px;
+    margin-bottom:33px;
+}
+.recfoto{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    margin-right:11px;
+}
+.perfis{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    position:relative;
+    margin-bottom:16px;
+}
+.recnome h1{
+    font-weight: bold;
+    font-size: 14px;
+    color: #262626;
+}
+.recnome h2{
+    font-weight: 400;
+    font-size: 12px;
+    color: #8E8E8E;
+    margin-top:6px;
+}
+.perfis h3{
+    font-weight: bold;
+    font-size: 12px;
+    color: #139EF2;
+    right:0;
+    position:absolute;
+}
+.rectexto p{
+    font-size: 10px;
+    color: #C7C7C7;
+    margin-bottom: 33px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-inferior{
+    display:none;
+}
+
+@media (max-width:935px){
+    .sidebar{
+        display:none;
+    }
+    .corpo{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0%;
+    }
+}
+
+@media (max-width:614px){
+    .barra-topo{
+        display:flex;
+        justify-content: space-around;
+    }
+    .post{
+        width:100%;
+    }
+    .setinha, .pesquisa, .linha-topo, .icones-top{
+        display:none;
+    }
+    .stories{
+        display:flex;
+        width:100%;
+        border:none;
+        background-color: inherit;
+    }
+    .menu-inferior{
+        position:fixed;
+        bottom:0;
+        left:0;
+        height:54px;
+        background-color: #ffffff;
+        border: 1px solid #dbdbdb;
+        width:100%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .logo-icon{
+        margin-left:0;
+    }
+    .logo-img{
+        margin-left: 150px;
+    }
+    .botoes{
+        margin-left: 0;
+        width:auto;
+    }
+}
